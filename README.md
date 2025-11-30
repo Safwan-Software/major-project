@@ -2,7 +2,7 @@
 
 ## 1. Create a clean conda environment with Python 3.8.5
 #### Create an environment named ai mouse (or any name) using Run project in Anaconda.
-Create an environment named aimouse (or any name) using Python 3.8.5
+#### Create an environment named aimouse (or any name) using Python 3.8.5
 
 ### Bash:
 #### conda create -n aimouse python=3.8.5 pip -y conda activate aimouse python --version
@@ -18,7 +18,7 @@ You can install with conda: conda install -c conda-forge cmake -y
 ### 3)(Optional) For audio/sound drivers, make sure microphone and speaker are enabled in Windows Settings.
 
 ## 3. Prefer conda installs for heavy packages (fast & compatible)
-Before running pip install -r requirements.txt, install the most fragile/binary packages via conda (using conda-forge) - this reduces build errors.
+#### Before running pip install -r requirements.txt, install the most fragile/binary packages via conda (using conda-forge) - this reduces build errors.
 ### Bash:
 #### core numeric + vision
 #### conda install -c
