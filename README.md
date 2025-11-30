@@ -17,8 +17,8 @@ CMake (if you expect to build from source)
 You can install with conda: conda install -c conda-forge cmake -y
 ### 3)(Optional) For audio/sound drivers, make sure microphone and speaker are enabled in Windows Settings.
 
-## 4. Prefer conda installs for heavy packages (fast & compatible)
-### Before running pip install -r requirements.txt, install the most fragile/binary packages via conda (using conda-forge) - this reduces ### build errors.
+## 3. Prefer conda installs for heavy packages (fast & compatible)
+Before running pip install -r requirements.txt, install the most fragile/binary packages via conda (using conda-forge) - this reduces build errors.
 ### Bash:
 ### core numeric + vision
 ### conda install -c
