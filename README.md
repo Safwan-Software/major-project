@@ -20,7 +20,7 @@ You can install with conda: conda install -c conda-forge cmake -y
 ## 3. Prefer conda installs for heavy packages (fast & compatible)
 Before running pip install -r requirements.txt, install the most fragile/binary packages via conda (using conda-forge) - this reduces build errors.
 ### Bash:
-core numeric + vision
+#### core numeric + vision
 conda install -c
 conda-forge numpy=1.24.4 -у
 conda install -c
