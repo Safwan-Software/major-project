@@ -13,15 +13,12 @@ Why conda: it manages binary Run project in Anaconda.
 ###
 Some packages (dlib, mediapipe, compiled C extensions) need build tools or system libraries. Install or verify:
 
-1. Visual C++ Build Tools /Visual Studio Build Tools
+1)Visual C++ Build Tools /Visual Studio Build Tools
 Install from Microsoft: choose "Desktop development with C++" workload (CMake + MSVC).
-
-After install, restart your PC or at least restart Anaconda Prompt.
-
-2. CMake (if you expect to build from source)
+2)After install, restart your PC or at least restart Anaconda Prompt.
+CMake (if you expect to build from source)
 You can install with conda: conda install -c conda-forge cmake -y
-
-3. (Optional) For audio/sound drivers, make sure microphone and speaker are enabled in Windows Settings.
+3)(Optional) For audio/sound drivers, make sure microphone and speaker are enabled in Windows Settings.
 ###
 
 4. Prefer conda installs for heavy packages (fast & compatible)
@@ -34,7 +31,8 @@ conda-forge numpy=1.24.4 -у
 conda install -c
 conda-forge opencv=4.10.0 -y
 # GUI
-###
+
 conda install -c
 conda-forge pyqt=5.15.9 -y
 #dlib (very sensitive)
+###
