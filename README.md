@@ -1,5 +1,5 @@
 # Virtual mouse using hand and eye gesture and chatbot
-###
+
 ## 1. Create a clean conda environment with Python 3.8.5
 Create an environment named ai mouse (or any name) using Run project in Anaconda.
 Create an environment named aimouse (or any name) using Python 3.8.5
@@ -29,4 +29,4 @@ Before running pip install -r requirements.txt, install the most fragile/binary 
 ### conda install -c
 ### conda-forge pyqt=5.15.9 -y
 ### dlib (very sensitive)
-###
+
